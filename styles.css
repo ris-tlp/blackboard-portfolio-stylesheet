@@ -61,7 +61,7 @@ div.transbox {
     width: 100%;
 }
 
-#portNavList {
+ul > li > a {
     color: white;
     text-decoration-color: white;
 }
