@@ -51,6 +51,7 @@ div.transbox {
 
 #portBody {
     background-color: transparent;
+    border: none;
 }
 
 #portNav {
@@ -58,4 +59,6 @@ div.transbox {
     border: 5px solid white;
     opacity: 0.6;
     width: 100%;
+    text-decoration-color: white;
+    color: white;
 }
