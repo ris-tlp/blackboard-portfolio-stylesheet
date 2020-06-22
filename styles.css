@@ -59,6 +59,9 @@ div.transbox {
     border: 5px solid white;
     opacity: 0.6;
     width: 100%;
-    text-decoration-color: white;
+}
+
+#portNavList {
     color: white;
+    text-decoration-color: white;
 }
