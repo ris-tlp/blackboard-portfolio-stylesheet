@@ -17,7 +17,7 @@ div.transbox {
     height: 500px;
     background-color: black;
     border: 5px solid white;
-    /* opacity: 0.6; */
+    opacity: 0.6;
     text-align: center;
 }
 
@@ -28,6 +28,8 @@ div.transbox {
     height: 50%;
     text-align: center;
     border-radius: 50%;
+    border: 3px solid white;
+    opacity: 2;
 }
 
 .profile-name {
@@ -45,4 +47,8 @@ div.transbox {
     margin-left: 15px;
     margin-right: 15px;
     color: white;
+}
+
+#portBody {
+    background-color: transparent;
 }
