@@ -21,6 +21,14 @@ div.transbox {
     text-align: center;
 }
 
+div.transbox p {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .profile-picture {
     content: url(https://i.imgur.com/5bhDRvM.jpg);
     margin: 5%;
@@ -51,18 +59,6 @@ div.transbox {
     color: white;
 }
 
-#portBody {
-    background-color: transparent;
-    border: none;
-}
-
-#portNav {
-    background-color: black;
-    border: 5px solid white;
-    opacity: 0.6;
-    width: 100%;
-}
-
 ul.icons {
     padding-top: 15px;
     list-style: none;
@@ -89,4 +85,16 @@ ul.icons li i {
 
 ul.icons li i:hover {
     color: white;
+}
+
+#portBody {
+    background-color: transparent;
+    border: none;
+}
+
+#portNav {
+    background-color: black;
+    border: 5px solid white;
+    opacity: 0.6;
+    width: 100%;
 }
