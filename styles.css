@@ -98,3 +98,7 @@ ul.icons li i:hover {
     opacity: 0.6;
     width: 100%;
 }
+
+#portNav ul li a {
+    color: white;
+}
