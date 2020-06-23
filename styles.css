@@ -61,7 +61,25 @@ div.transbox {
     width: 100%;
 }
 
-li > a {
-    color: white;
-    text-decoration-color: white;
+ul.icons {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.icons li {
+    display: inline-block;
+}
+
+ul.icons li a {
+    text-decoration: none;
+    position: relative;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    border: solid 1px #c8cccf;
+    line-height: 16px;
+    overflow: hidden;
+    text-align: center;
 }
