@@ -77,9 +77,15 @@ ul.icons li a {
     text-decoration: none;
     position: relative;
     display: block;
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     line-height: 40px;
     overflow: hidden;
     text-align: center;
+    color: lightgray;
+    font-size: 45px;
+}
+
+ul.icons li a:hover {
+    color: white;
 }
