@@ -102,3 +102,7 @@ ul.icons li i:hover {
 #portNav ul li a {
     color: white;
 }
+
+#portText h2 {
+    visibility: hidden;
+}
