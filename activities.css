@@ -1,0 +1,26 @@
+body {
+    background: url(https://i.imgur.com/T7PiQCU.jpg) repeat;
+    height: 100%;
+    width: 100%;
+}
+
+#portBody {
+    background-color: black;
+    border: 5px solid white;
+    opacity: 0.6;
+}
+
+#portNav {
+    background-color: black;
+    border: 5px solid white;
+    opacity: 0.6;
+    width: 100%;
+}
+
+#portNav ul li a {
+    color: white;
+}
+
+#portText h2 {
+    visibility: hidden;
+}
