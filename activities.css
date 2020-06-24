@@ -4,6 +4,11 @@ body {
     width: 100%;
 }
 
+.portSection {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #portBody {
     background-color: black;
     border: 5px solid white;
