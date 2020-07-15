@@ -49,10 +49,14 @@ div.transbox p {
     text-transform: uppercase;
     margin-top: -15px;
     color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: solid 3px rgba(0, 255, 0, .75);
+    margin: 0 auto;
 }
 
 .profile-name {
-    animation: animated-text 2s steps(30, end) 1s 1 normal both;
+    animation: animated-text 4s steps(29, end) 1s 1 normal both, animated-cursor 600ms steps(29, end) infinite;
 }
 
 @keyframes animated-text {
@@ -60,7 +64,16 @@ div.transbox p {
         width: 0;
     }
     to {
-        width: 472px;
+        width: 350px;
+    }
+}
+
+@keyframes animated-cursor {
+    from {
+        border-right-color: gray
+    }
+    to {
+        border-right-color: transparent;
     }
 }
 
@@ -76,11 +89,24 @@ ul.icons {
     padding-top: 15px;
     list-style: none;
     padding-left: 0;
+    opacity: 0;
+    animation: animationIcons 0s 4s forwards;
 }
 
 ul.icons li {
     display: inline-block;
     padding-left: 10px;
+    opacity: 0;
+    animation: animationIcons 0s 4s forwards;
+}
+
+@keyframes animationIcons {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 ul.icons li i {
@@ -94,6 +120,7 @@ ul.icons li i {
     text-align: center;
     color: lightgray;
     font-size: 45px;
+    animation: animationIcons 0s 4s forwards;
 }
 
 ul.icons li i:hover {
