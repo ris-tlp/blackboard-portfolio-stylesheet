@@ -19,7 +19,6 @@ div.transbox {
     border: 5px solid white;
     opacity: 0.8;
     text-align: center;
-    display: flex;
 }
 
 div.transbox p {
@@ -28,7 +27,6 @@ div.transbox p {
     text-align: center;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    flex-basis: 100%;
 }
 
 .profile-picture {
