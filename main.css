@@ -106,3 +106,14 @@ ul.icons li i:hover {
 #portText h2 {
     visibility: hidden;
 }
+
+#portFooter {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+
+#portFooter p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

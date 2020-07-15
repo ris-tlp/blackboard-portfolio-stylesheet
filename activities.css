@@ -32,3 +32,14 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
+
+#portFooter {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+
+#portFooter p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
