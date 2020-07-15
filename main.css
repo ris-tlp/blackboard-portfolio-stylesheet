@@ -13,12 +13,14 @@ div.center {
 }
 
 div.transbox {
-    width: 500px;
-    height: 500px;
+    max-width: 500px;
+    max-height: 500px;
     background-color: black;
     border: 5px solid white;
     opacity: 0.8;
     text-align: center;
+    width: 90%;
+    height: 90%;
 }
 
 div.transbox p {
