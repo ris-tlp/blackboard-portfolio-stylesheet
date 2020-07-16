@@ -51,7 +51,7 @@ div.transbox p {
     color: white;
     white-space: nowrap;
     overflow: hidden;
-    border-right: solid 3px rgba(0, 255, 0, .75);
+    border-right: solid 3px gray;
     margin: 0 auto;
 }
 
@@ -61,10 +61,10 @@ div.transbox p {
 
 @keyframes animated-text {
     from {
-        width: 24px;
+        width: 0px;
     }
     to {
-        width: 400px;
+        width: 472px;
     }
 }
 
