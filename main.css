@@ -9,6 +9,8 @@ h1 {
     padding: 0;
 }
 
+#portBody h1 {}
+
 div.center {
     position: absolute;
     top: 50%;
@@ -148,6 +150,7 @@ ul.icons li i {}
 #portBody {
     background-color: transparent;
     border: none;
+    text-align: center;
 }
 
 #portNav {
