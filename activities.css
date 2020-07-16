@@ -4,10 +4,6 @@ body {
     width: 100%;
 }
 
-a:link {
-    color: white;
-}
-
 a:visited {
     color: gray;
 }
