@@ -1,5 +1,5 @@
 body {
-    background: url(https://i.imgur.com/T7PiQCU.jpg) repeat;
+    background: url(https://i.imgur.com/3U9Br4q.png) repeat;
     height: 100%;
     width: 100%;
 }
@@ -46,4 +46,10 @@ a:visited {
 #portFooter p {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-title {
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: bold;
 }
