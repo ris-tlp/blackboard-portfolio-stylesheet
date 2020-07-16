@@ -5,13 +5,11 @@ body {
 }
 
 h1 {
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
 }
 
 #portBody h1 {
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
 }
 
 div.center {
@@ -147,8 +145,6 @@ ul.icons li i {
 ul.icons li i:hover {
     color: white;
 }
-
-ul.icons li i {}
 
 #portBody {
     background-color: transparent;
