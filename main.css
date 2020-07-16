@@ -9,7 +9,10 @@ h1 {
     padding: 0;
 }
 
-#portBody h1 {}
+#portBody h1 {
+    margin: 0;
+    padding: 0;
+}
 
 div.center {
     position: absolute;
@@ -63,7 +66,7 @@ div.transbox p {
 }
 
 .profile-name {
-    animation: animated-text 4s steps(29, end) 1s 1 normal both, animated-cursor 600ms steps(29, end) infinite;
+    animation: animated-text 2s steps(29, end) 1s 1 normal both, animated-cursor 600ms steps(29, end) infinite;
 }
 
 @keyframes animated-text {
@@ -106,20 +109,20 @@ ul.icons li {
 }
 
 ul.icons li:nth-child(1) {
-    animation-delay: 1s;
+    animation-delay: 0.5s;
     display: inline-block;
 }
 
 ul.icons li:nth-child(2) {
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 ul.icons li:nth-child(3) {
-    animation-delay: 3s;
+    animation-delay: 1.5s;
 }
 
 ul.icons li:nth-child(4) {
-    animation-delay: 4s;
+    animation-delay: 2s;
 }
 
 @keyframes sequential {
