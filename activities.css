@@ -54,6 +54,11 @@ a:visited {
     font-weight: bold;
 }
 
-.portSection::after {
+
+/* .portSection::after {
     content: "▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀";
+} */
+
+.portSection {
+    border-bottom: 9px solid;
 }
