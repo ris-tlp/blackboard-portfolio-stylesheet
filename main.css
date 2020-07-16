@@ -163,6 +163,11 @@ ul.icons li i:hover {
     color: white;
 }
 
+#portNav ul li a:active {
+    background-color: white;
+    color: black;
+}
+
 #portText h2 {
     visibility: hidden;
 }
