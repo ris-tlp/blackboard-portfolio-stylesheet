@@ -4,6 +4,11 @@ body {
     width: 100%;
 }
 
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
 div.center {
     position: absolute;
     top: 50%;
