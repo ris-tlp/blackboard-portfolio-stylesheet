@@ -4,6 +4,10 @@ body {
     width: 100%;
 }
 
+.vtbegenerated a:visited {
+color: cyan;
+}
+
 a:visited {
     color: lightskyblue;
 }
