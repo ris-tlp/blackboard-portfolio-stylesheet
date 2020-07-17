@@ -50,8 +50,9 @@ a:visited {
 
 #portText .portSection h3.section-title {
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
+text-align: center;
 }
 
 
