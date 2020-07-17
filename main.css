@@ -79,7 +79,7 @@ div.transbox p {
 }
 
 .profile-name {
-    animation: animated-text 2s steps(29, end) 1s 1 normal both, animated-cursor 600ms steps(29, end) infinite;
+    animation: animated-text 2.5s steps(29, end) 1s 1 normal both, animated-cursor 600ms steps(29, end) infinite;
 }
 
 @keyframes animated-text {
@@ -136,6 +136,10 @@ ul.icons li:nth-child(3) {
 
 ul.icons li:nth-child(4) {
     animation-delay: 2s;
+}
+
+ul.icons li:nth-child(5) {
+    animation-delay: 2.5s;
 }
 
 @keyframes sequential {
